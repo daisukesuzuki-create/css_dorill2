@@ -1,5 +1,4 @@
 p {
-    /* background: lightblue; */
     padding: 10px;
     height: 50px;
     border: 1px solid black;
@@ -72,12 +71,12 @@ p {
 }
 
 .square2 {
+    height: 400px;
     padding: 40px;
     padding-left: 0;
     padding-right: 0;
     display: flex;
     gap: 40px;
-    /* border: 1px solid rgb(252, 1, 1); */
 }
 
 .square2-1 {
@@ -87,15 +86,18 @@ p {
     width: 20%;
     border: 1px solid rgb(0, 0, 0);
     margin:0;
+    gap: 40px;
 }
 
 .box3{
     height: 30%;
+    margin:0;
     border: 1px solid black;
 }
 
 .box4{
     height: 70%;
+    margin:0;
     border: 1px solid black;
 }
 .square2-2 {
@@ -118,7 +120,6 @@ p {
     flex-direction: column;
     height: 100%;
     width: 50%;
-    /* border: 1px solid rgb(255, 0, 0); */
 }
 
 .box {
