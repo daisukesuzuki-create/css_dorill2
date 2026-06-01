@@ -1,0 +1,213 @@
+p {
+    padding: 10px;
+    height: 50px;
+    border: 1px solid black;
+}
+.flex{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+}
+
+.parent {
+    justify-content: space-between; /* 両端に配置 */
+}
+
+.center1 {
+    justify-content: center; /* 中央に配置 */
+}
+
+.left{
+    justify-content: flex-start; /* 左端に配置 */
+}
+
+.right{ 
+    justify-content: flex-end; /* 右端に配置 */
+}
+
+.up {
+    justify-content: center; /* 中央に配置 */
+    align-items: flex-start; /* 上端に配置 */
+}
+
+.down {
+    justify-content: center; /* 中央に配置 */
+    align-items: flex-end; /* 下端に配置 */
+}
+
+.center2 {
+    justify-content: center; /* 中央に配置 */
+    align-items: center; /* 中央に配置 */
+}
+
+/*---------------------------------------------------------------*/
+
+.section {
+    box-sizing: border-box;
+    padding: 40px;
+    border: 1px solid black;
+}
+
+.square1 {
+    padding: 40px;
+    display: flex;
+    gap: 40px;
+    border: 1px solid black;
+}
+
+.box1 {
+    height: 60px;
+    width: 20%;
+    border: 1px solid black;
+    margin:0;
+}
+
+.box2 {
+    height: 60px;
+    width: 80%;
+    border: 1px solid black;
+    margin:0;
+}
+
+.square2 {
+    height: 400px;
+    padding: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    gap: 40px;
+}
+
+.square2-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 20%;
+    border: 1px solid rgb(0, 0, 0);
+    margin:0;
+    gap: 40px;
+}
+
+.box3{
+    height: 30%;
+    margin:0;
+    border: 1px solid black;
+}
+
+.box4{
+    height: 70%;
+    margin:0;
+    border: 1px solid black;
+}
+.square2-2 {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    width: 80%;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.box5{
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+}
+
+.square2-2-2 {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+
+.box {
+    height: 33.3%;
+    border: 1px solid black;
+    margin:0;
+}
+
+/*---------------------------------------------------------------*/
+
+.container {
+    box-sizing: border-box;
+    padding: 30px;
+    border: 1px solid black;
+}
+
+.top {
+    display: grid;
+    padding: 30px;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+}
+
+.top-left {
+    height: 100%;
+    border: 1px solid black;
+}
+
+.top-right {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.bar {
+    height: 60px;
+    border: 1px solid black;
+}
+
+.row {
+    height: 60px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 30px;
+}
+
+.long {
+    height: 60px;
+    border: 1px solid black;
+}
+
+.small {
+    height: 60px;
+    border: 1px solid black;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.left {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.lbox {
+    height: 60px;
+    border: 1px solid black;
+}
+
+.row2 {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+        gap: 1fr;
+}
+
+.row2 .small {
+    width: 30%;
+    border: 1px solid black;
+}
+
+.right {
+    height: 100%;
+    border: 1px solid black;
+}
